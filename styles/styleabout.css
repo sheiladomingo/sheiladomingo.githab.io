@@ -1,0 +1,114 @@
+body
+{
+ font-family: 'Rosario', sans-serif;
+ }
+header{
+    padding: 58px 240px 62px 154px;
+    border-color: #FFC6FD;
+    border-width: 4px;
+    border-style: solid; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav
+{
+display: flex;
+justify-content: right;
+align-items: flex-end;
+}
+
+ul {
+    display: flex;
+}
+a {
+    outline: none;
+    margin-left: 25px;
+    color: #FFC6FD;
+    line-clamp: #FFC6FD;
+}
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+main {
+    padding: 160px 232px 160px 233px;
+    background-color: #FCFDBF;
+}
+
+section {
+    font-family: 'Rosario' sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height : 200%;
+}
+.intro {
+    margin-right: 30px
+}
+.myselft {
+    margin-right: 233px;
+}
+.parrafo2 {
+    display: flex;
+    flex-direction: row;
+
+}
+.estudiante {
+    margin-bottom: 60px;
+    margin-right: 233px;
+    
+}
+.diplomada{
+    margin-bottom: 60px;
+    margin-right: 233px;
+    
+}
+.laboral {
+    margin-bottom: 60px;
+    
+}
+.leyendo {
+    margin-bottom: 60px;
+}
+
+
+footer{
+    padding: 94px 147px 202px 243px; 
+    border-color: #FFC6FD;
+    border-width: 4px;
+    border-style: solid; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.footer-texto {
+    font-family: 'Rosario'sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center
+}
+.rrss {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center
+}
+.medium {
+    margin: 0px 18px 0px 18px;
+}
+.mobile-content {
+    display: none;
+}
+@media only screen and (max-width: 414px){
+    .desktop-content {
+        display: none;
+    }
+
+.mobile-content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFDBF;
+}}

@@ -1,0 +1,171 @@
+body
+{
+ font-family: 'Rosario', sans-serif;
+ }
+header{
+    padding: 58px 240px 62px 154px;
+    border-color: #FFC6FD;
+    border-width: 4px;
+    border-style: solid; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav
+{
+display: flex;
+justify-content: right;
+align-items: flex-end;
+}
+
+ul {
+    display: flex;
+}
+a {
+    outline: none;
+    margin-left: 25px;
+    color: #FFC6FD;
+    line-clamp: #FFC6FD;
+}
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.header-saludo {
+    padding: 0px 240px 62px 154px;
+    font-family: 'Rosario' sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+main {
+    padding: 160px 248px 160px 248px;
+    background-color: #FCFDBF;
+}
+
+.cuadrado {
+    padding: 16px 67px 15px 31px;
+    background-color: white;
+    border-color: #FFC6FD;
+    border-width: 4px;
+    border-style: solid; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 116px;
+}
+
+.editorial {
+    display: flex;
+    align-items: center;
+}
+.hotlist {
+    margin-right: 29px;
+}
+
+.fest_santi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+
+.fest_home{
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+}
+
+.fest_contacto {
+    margin-left: 37px;
+}
+.wellness {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wellness_lista {
+    margin-left: 42px;
+}
+
+h3 {
+    font-family: 'Rosario' sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFC6FD;
+    padding-top: 150px;
+    margin: 0px 73px 0px 77px;
+}
+
+p {
+    font-family: 'Rosario' sans-serif;
+    font-size: 18px;
+    margin: 31px 66px 32px 77px; 
+}
+
+button {
+ width: 140px;
+ height: 44px;
+ background-color: white;
+ border-color: #FFC6FD; 
+ border-radius: 10px;
+ font-family: 'Rosario'; 
+ font-size: 18px;
+ text-align: center;
+ margin: 32px 0px 0px 77px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #FCFDBF;
+    border-color: #FFC6FD;
+    box-shadow: #FCFDBF;
+    animation: botonSize 3s;
+}
+@keyframes button{
+    0%{
+        transition-delay: 250ms;
+        transition-property: margin-right;
+    }
+}
+
+footer{
+    padding: 94px 147px 202px 243px; 
+    border-color: #FFC6FD;
+    border-width: 4px;
+    border-style: solid; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.footer-texto {
+    font-family: 'Rosario'sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center
+}
+.rrss {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center
+}
+.medium {
+    margin: 0px 18px 0px 18px;
+}
+
+.mobile-content {
+    display: none;
+}
+@media only screen and (max-width: 414px){
+    .desktop-content {
+        display: none;
+    }
+
+.mobile-content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFDBF;
+}}
