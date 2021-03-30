@@ -113,6 +113,9 @@ button {
  font-size: 18px;
  text-align: center;
  margin: 32px 0px 0px 77px;
+ border-style: solid;
+ border-width: 4px;
+ animation: boton 3s;
 }
 
 button:hover{
@@ -120,12 +123,21 @@ button:hover{
     background-color: #FCFDBF;
     border-color: #FFC6FD;
     box-shadow: #FCFDBF;
-    animation: botonSize 3s;
 }
-@keyframes button{
+@keyframes boton{
     0%{
-        transition-delay: 250ms;
-        transition-property: margin-right;
+        width: 140px;
+        height: 44px;
+    }
+    50%{
+        width: 160px;
+        height: 66px;
+    
+    }
+    100%{
+        width: 140px;
+        height: 44px;
+
     }
 }
 
@@ -143,12 +155,13 @@ footer{
     font-size: 28px;
     font-weight: bolder;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    text-align:center;
 }
 .rrss {
     margin-top: 45px;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 .medium {
     margin: 0px 18px 0px 18px;
